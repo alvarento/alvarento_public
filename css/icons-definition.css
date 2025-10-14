@@ -1,0 +1,44 @@
+@import url("/css/variables.css");
+
+.icon,
+.logo__img {
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-position: center;
+  
+  mask-position: center;
+  color: var(--primary-color);
+}
+
+
+/* Definição dos ícones */
+
+.logo__img {
+  -webkit-mask-image: url("/images/logo_alvarento.svg");
+  mask-image: url("/images/logo_alvarento.svg");
+}
+.icon-linkedin {
+  -webkit-mask-image: url("/icons/linkedin-100.svg");
+  mask-image: url("/icons/linkedin-100.svg");
+}
+
+.icon-github {
+  -webkit-mask-image: url("/icons/github-100.svg");
+  mask-image: url("/icons/github-100.svg");
+}
+.icon-webpage {
+  -webkit-mask-image: url("/icons/webpage-100.svg");
+  mask-image: url("/icons/webpage-100.svg");
+}
+.icon-alvarento-selo {
+  -webkit-mask-image: url("/icons/alvarento-selo-100.svg");
+  mask-image: url("/icons/alvarento-selo-100.svg");
+}
+.icon-email {
+  -webkit-mask-image: url("/icons/email-100.svg");
+  mask-image: url("/icons/email-100.svg");
+}

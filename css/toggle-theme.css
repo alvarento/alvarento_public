@@ -1,0 +1,27 @@
+.toggle-theme {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  background: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 0.5px solid var(--border-color);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-tap-highlight-color: transparent;
+
+  .toggle-theme__icon {
+    font-size: 1.15rem;
+    color: var(--second-color);
+  }
+
+  &:hover {
+    transform: scale(0.95);
+    transition: all 300ms;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+}

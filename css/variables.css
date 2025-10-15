@@ -1,11 +1,15 @@
+:root {
+  --bg-image: url("https://public.alvarento.dev/images/bg-light.png");
+}
+
 [data-theme="light"] {
   --primary-color: #000000;
   --second-color: #3c3c3c;
   --third-color: #f1f3f3;
   --border-color: rgba(60, 60, 60, 0.35);
   --bg-color: #cfcfcf;
-  --bg-image: url("/images/bg-light.png");
-  --cursorA: url("/images/icon_a-dark.png"), auto;
+  --bg-image: url("https://public.alvarento.dev/images/bg-light.png");
+  --cursorA: url("https://public.alvarento.dev/images/icon_a-dark.png"), auto;
 }
 
 [data-theme="dark"] {
@@ -14,6 +18,6 @@
   --third-color: #3c3c3c;
   --border-color: rgba(213, 213, 213, 0.35);
   --bg-color: #606060;
-  --bg-image: url("/images/bg-dark.png");
-  --cursorA: url("/images/icon_a-light.png"), auto;
+  --bg-image: url("https://public.alvarento.dev/images/bg-dark.png");
+  --cursorA: url("https://public.alvarento.dev/images/icon_a-light.png"), auto;
 }
